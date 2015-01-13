@@ -11,7 +11,7 @@ html
   font-family: $fontStack
 
 
-.header div
+.block
   display: block
   float: left
   height: 200px
@@ -23,7 +23,8 @@ html
   width: 50%
 
 .fourth
-  width: 25%
+  width: 23%
+  margin-right: 2%
 
 .content
   margin: $unit*10 5%
@@ -35,6 +36,14 @@ ul
   li
     list-style-type: none
 
+.reading-list
+  padding-left: 50px
+
+  li
+    list-style-type: circle
+
+.reading-title
+  font-style: italic
 a
   color: $black
   text-decoration: none
@@ -43,10 +52,11 @@ a
     color: $hover
 
 
-.date
+.mini
   font-size: .7em
   display: block
   margin-top: 5px
+
 
 h1
   margin: 0
@@ -54,9 +64,28 @@ h1
 h2
   margin: $unit 0
   position: relative
+  margin-bottom: 0.25em
+
+h3
+  margin-bottom: 0.25em
+  
+p
+  margin-top: 0
 
 .subtitle
   font-size: .9em
+
+.blockquote
+  margin: 50px 50% 50px -50%
+
+.quote
+  font-size: 1.2em
+  font-style: italics
+
+.attribution
+  font-size: .9em
+  display: block
+
 
 .lessons
   margin: 0 auto
