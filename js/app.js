@@ -7,10 +7,10 @@
       templateUrl: "pages/main.html",
       controller: "mainController",
       title: "Working with Typography"
-    }).when("/", {
-      templateUrl: "pages/main.html",
-      controller: "mainController",
-      title: "Working with Typography"
+    }).when("/about", {
+      templateUrl: "pages/lesson.html",
+      controller: "aboutController",
+      title: "About | Working with Typography"
     });
 
   });
@@ -29,13 +29,20 @@
 
   app.controller("mainController", function($scope) {
 
-    $scope.projects = [
-      {title: "Confluence", path: "confluence", tagline: "Crowdsourced Q&A for foreign language learners"},
-      {title: "DaVinci Mobile", path: "davinci", tagline: "LinkedIn's mobile pattern library for designers & developers"},
-      {title: "Introduction to Illustrator & Photoshop", path: "decal", tagline: "A weekly 2-hour, 2-unit UC Berkeley DeCal course"},
-      {title: "32pt", path: "32pt", tagline: "A custom design editor for letterpressed business cards"},
-      {title: "Lettering", path: "lettering", tagline: "Illustrative typography"},
-      {title: "Artwork", path: "art", tagline: "Portraiture & paintings"}
+    $scope.lessons = [
+      {title: "Letterforms", date: "03 Feb 2014"},
+      {title: "Lettering Basics", date: "10 Feb 2014"},
+      {title: "Typography Basics", date: "17 Feb 2014"},
+      {title: "Typographic Systems", date: "24 Feb 2014"},
+      {title: "Editorial Design", date: "03 Mar 2014"},
+      {title: "Web & Mobile Typography", subtitle: "Midterm project due", date: "10 Mar 2014"},
+      {title: "Identity Design", date: "17 Mar 2014"},
+      {title: "Spatial Typography", date: "24 Mar 2014"},
+      {title: "Transmedia Typography", date: "31 Mar 2014"},
+      {title: "Exploring Concept", date: "07 Apr 2014"},
+      {title: "Synthesis", date: "14 Apr 2014"},
+      {title: "Final Critique", subtitle: "Final project due",  date: "21 Apr 2014"}
+
     ];
 
 

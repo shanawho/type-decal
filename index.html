@@ -8,7 +8,7 @@
   <link href="http://fonts.googleapis.com/css?family=Ek+Mukta:200,400,700" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
@@ -21,15 +21,38 @@
 
 <body>
 
-  <div ng-controller="mainController">
-    <div class="left">
-      <h1>Working with Typography</h1>
+  <div class="content" ng-controller="mainController">
+    <div class="header">
+      <div class="half">
+        <a href="#"><h1>Working with Typography</h1></a> <p> is UC Berkeley <a href="http://decal.org" target="_blank">DeCal</a> course designed to teach students the foundations and applications of typography and lettering.</p>
+
+      </div>
+      <div class="fourth">
+        <ul>
+          <li>Apply</li>
+          <li></li>
+        </ul>
+
+      </div>
+      <div class="fourth">
+        <ul>
+          <li>Contact</li>
+          <li>Syllabus</li>
+          <li>Behance</li>
+          <li>Resources</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="right">
-      <div ng-view autoscroll="true"></div>
-    </div>
 
+
+
+    <div ng-view autoscroll="true"></div>
+
+    <footer>
+      <p>Created, curated, and facilitated by <a href="http://shanahu.com/#" target="_blank">Shana Hu</a></p<
+      <p>Spring 2015</p>
+    </footer>
   </div>
 
 </body>
