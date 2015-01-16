@@ -49,7 +49,7 @@ p a {
   text-decoration: underline; }
 
 .unreleased {
-  color: #494949; }
+  color: #6d6d6d; }
 
 .mini {
   font-size: 0.7em;
@@ -90,7 +90,7 @@ figure img {
 
 figcaption {
   font-size: 0.8em;
-  color: #494949;
+  color: #6d6d6d;
   font-style: italic; }
 
 .blockquote {
