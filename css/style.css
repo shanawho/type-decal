@@ -43,6 +43,11 @@ a {
   a:hover {
     color: #ff2e2e; }
 
+ul.reading-list a,
+p a {
+  font-style: italic;
+  text-decoration: underline; }
+
 .mini {
   font-size: 0.7em;
   display: block;
@@ -64,6 +69,26 @@ p {
 
 .subtitle {
   font-size: 0.9em; }
+
+iframe {
+  margin-bottom: 1em; }
+
+figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-bottom: 1em; }
+
+figure img {
+  width: 100%;
+  height: auto;
+  margin-left: -10%;
+  margin-right: -10%; }
+
+figcaption {
+  font-size: 0.8em;
+  color: black;
+  font-style: italic; }
 
 .blockquote {
   margin: 50px 50% 50px -50%; }
