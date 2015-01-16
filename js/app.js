@@ -71,8 +71,8 @@
 
     $scope.lessons = [
       {title: "Letterforms", date: "03 Feb 2014"},
-      {title: "Lettering Basics", date: "10 Feb 2014"},
-      {title: "Typography Basics", date: "17 Feb 2014"},
+      {title: "Introduction to Lettering", date: "10 Feb 2014"},
+      {title: "Introduction to Typography", date: "17 Feb 2014"},
       {title: "Typographic Systems", date: "24 Feb 2014"},
       {title: "Editorial Design", date: "03 Mar 2014"},
       {title: "Web & Mobile Typography", subtitle: "Midterm project due", date: "10 Mar 2014"},
@@ -96,58 +96,58 @@
 
   app.controller("lesson2Controller", function($scope) {
     $scope.due = "handmade typography";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[1].title;
+    $scope.date = lessons[1].date;
   })
   app.controller("lesson3Controller", function($scope) {
     $scope.due = "dropcap";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[2].title;
+    $scope.date = lessons[2].date;
   })
   app.controller("lesson4Controller", function($scope) {
     $scope.due = "typeface pairings";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[3].title;
+    $scope.date = lessons[3].date;
   })
   app.controller("lesson5Controller", function($scope) {
     $scope.due = "12 typographic system layouts";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[4].title;
+    $scope.date = lessons[4].date;
   })
   app.controller("lesson6Controller", function($scope) {
     $scope.due = "editorial spread";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[5].title;
+    $scope.date = lessons[5].date;
   })
   app.controller("lesson7Controller", function($scope) {
     $scope.due = "midterm project";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[6].title;
+    $scope.date = lessons[6].date;
   })
   app.controller("lesson8Controller", function($scope) {
     $scope.due = "museum identity";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[7].title;
+    $scope.date = lessons[7].date;
   })
   app.controller("lesson9Controller", function($scope) {
     $scope.due = "gallery design";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[8].title;
+    $scope.date = lessons[8].date;
   })
   app.controller("lesson10Controller", function($scope) {
     $scope.due = "exhibit design";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[9].title;
+    $scope.date = lessons[9].date;
   })
   app.controller("lesson11Controller", function($scope) {
     $scope.due = "design influences culture";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[10].title;
+    $scope.date = lessons[10].date;
   })
   app.controller("lesson12Controller", function($scope) {
     $scope.due = "Delightful confusion";
-    $scope.title = lessons[0].title;
-    $scope.date = lessons[0].date;
+    $scope.title = lessons[11].title;
+    $scope.date = lessons[11].date;
   })
 
 
