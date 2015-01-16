@@ -1,11 +1,21 @@
 <ul class="lessons">
-	<span ng-repeat="lesson in lessons">
+	<span ng-repeat="lesson in released">
 		<li class="lesson" id="lessons{{$index + 1}}">
 			<a href="#/lessons/{{$index + 1}}">
 				<span class="mini">{{lesson.date}}</span>
 				<h2>{{lesson.title}}</h2>
 				<span class="subtitle">{{lesson.subtitle}}</span>
 			</a>
+		</li>
+	</span>
+
+	<span ng-repeat="lesson in lessons">
+		<li class="lesson" id="lessons{{$index + 1}}">
+			<span class="unreleased">
+				<span class="mini">{{lesson.date}}</span>
+				<h2>{{lesson.title}}</h2>
+				<span class="subtitle">{{lesson.subtitle}}</span>
+			</span>
 		</li>
 	</span>
 </ul>
