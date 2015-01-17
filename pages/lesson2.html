@@ -1,11 +1,20 @@
-  <div class="block fourth">
-    <span class="mini">Due</span>
-    <p>{{due}}</p>
+<div class="buttons">
+  <span class="button prev" ng-if="prevLesson">
+    <a href="#/lessons/{{ prevLesson }}">
+    Previous
+    </a>
+  </span>
 
-  </div>
+  <span class="button next" ng-if="nextLesson">
+    <a href="#/lessons/{{ nextLesson }}">
+    Next
+    </a>
+  </span>
+</div>
 
 
-  <div class="block half">
+
+  <div class="lesson-width">
     <span class="mini">{{date}}</span>
     <h2>{{title}}</h2>
 
@@ -49,8 +58,4 @@
     </ul>
 
 
-  </div>
-
-
-  <div class="block fourth">
   </div>

@@ -14,7 +14,8 @@ html {
   margin-top: 5px; }
 
 .half {
-  width: 50%; }
+  width: 48%;
+  margin-right: 2%; }
 
 .fourth {
   width: 23%;
@@ -22,6 +23,13 @@ html {
 
 .content {
   margin: 50 5%; }
+
+.lesson-width {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-top: 1px solid #161516;
+  clear: both; }
 
 ul {
   padding-left: 0;
@@ -37,19 +45,38 @@ ul {
 .reading-title {
   font-style: italic; }
 
+.prev {
+  margin-right: 20%; }
+
+.buttons {
+  width: 100%;
+  float: left;
+  margin-top: -100px; }
+
+.button {
+  margin-top: 50px; }
+  .button a {
+    padding: 10px;
+    border: 1px solid #161516;
+    float: left; }
+    .button a:hover {
+      border: 1px solid #ff2e2e;
+      color: #ff2e2e; }
+  .button.prev {
+    float: left; }
+  .button.next {
+    float: right; }
+
 a {
   color: #161516;
   text-decoration: none; }
   a:hover {
     color: #ff2e2e; }
 
+.nav-links a,
 ul.reading-list a,
 p a {
-  font-style: italic;
-  text-decoration: underline; }
-
-.unreleased {
-  color: #6d6d6d; }
+  font-style: italic; }
 
 .mini {
   font-size: 0.7em;
@@ -118,10 +145,20 @@ figcaption {
   display: block;
   float: left; }
 
+.unreleased {
+  color: #6d6d6d;
+  border-top: 1px solid #6d6d6d; }
+
 @media (max-width: 800px) {
   .lesson {
     box-sizing: border-box;
     width: 48%; } }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .lesson {
-    width: 98%; } }
+    width: 98%; }
+
+  .half {
+    width: 98%; }
+
+  .fourth {
+    width: 48%; } }
