@@ -11,7 +11,7 @@
       templateUrl: "pages/syllabus.html",
       controller: "syllabusController",
       title: "Syllabus"
-    }).when("/syllabus", {
+    }).when("/resources", {
       templateUrl: "pages/resources.html",
       controller: "resourcesController",
       title: "Resources"
