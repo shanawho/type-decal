@@ -10,7 +10,11 @@
     }).when("/syllabus", {
       templateUrl: "pages/syllabus.html",
       controller: "syllabusController",
-      title: "Lesson 1: Letterforms"
+      title: "Syllabus"
+    }).when("/syllabus", {
+      templateUrl: "pages/resources.html",
+      controller: "resourcesController",
+      title: "Resources"
     }).when("/lessons/1", {
       templateUrl: "pages/lesson1.html",
       controller: "lesson1Controller",
