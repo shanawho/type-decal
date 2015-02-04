@@ -83,16 +83,16 @@
     ]
 
     $scope.lessons = [
-      {title: "Introduction to Lettering", date: "10 Feb 2014"},
-      {title: "Introduction to Typography", date: "17 Feb 2014"},
-      {title: "Typographic Systems", date: "24 Feb 2014"},
+      {title: "Handlettering", date: "10 Feb 2014"},
+      {title: "Digital Lettering", date: "17 Feb 2014"},
+      {title: "Intro to Typography", date: "24 Feb 2014"},
       {title: "Editorial Design", date: "03 Mar 2014"},
-      {title: "Typography for Web & Mobile", subtitle: "Midterm project due", date: "10 Mar 2014"},
-      {title: "Typography in Product Design", date: "17 Mar 2014"},
-      {title: "Identity Design", date: "31 Mar 2014"},
-      {title: "Spatial Typography", date: "07 Apr 2014"},
-      {title: "Transmedia Typography", date: "14 Apr 2014"},
-      {title: "Exploring Concept", date: "21 Apr 2014"},
+      {title: "Typography for Web & Mobile", date: "10 Mar 2014"},
+      {title: "Identity Design", date: "17 Mar 2014", subtitle: "Midterm project due"},
+      {title: "Spatial Typography", date: "31 Mar 2014"},
+      {title: "Transmedia Typography", date: "07 Apr 2014"},
+      {title: "Exploring Concept", date: "14 Apr 2014"},
+      {title: "Creative Workshop", date: "21 Apr 2014"},
       {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2014"}
 
     ];
