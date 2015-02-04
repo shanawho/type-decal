@@ -120,6 +120,12 @@ figcaption {
   color: #6d6d6d;
   font-style: italic; }
 
+.slides a {
+  font-style: italic;
+  text-align: center;
+  padding: 10;
+  border: 1px solid #161516; }
+
 .blockquote {
   margin: 2em; }
 
