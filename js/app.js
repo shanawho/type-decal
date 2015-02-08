@@ -11,6 +11,10 @@
       templateUrl: "pages/syllabus.html",
       controller: "syllabusController",
       title: "Syllabus"
+    }).when("/contact", {
+      templateUrl: "pages/contact.html",
+      controller: "contactController",
+      title: "Contact"
     }).when("/resources", {
       templateUrl: "pages/resources.html",
       controller: "resourcesController",
