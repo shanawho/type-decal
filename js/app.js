@@ -83,21 +83,21 @@
   app.controller("mainController", function($scope) {
 
     $scope.released = [
-      {title: "Letterforms", date: "03 Feb 2014"},
-      {title: "Handlettering", date: "10 Feb 2014"}
+      {title: "Letterforms", date: "03 Feb 2015"},
+      {title: "Handlettering", date: "10 Feb 2015"}
     ]
 
     $scope.lessons = [
-      {title: "Digital Lettering", date: "17 Feb 2014"},
-      {title: "Intro to Typography", date: "24 Feb 2014"},
-      {title: "Editorial Design", date: "03 Mar 2014"},
-      {title: "Typography for Web & Mobile", date: "10 Mar 2014"},
-      {title: "Identity Design", date: "17 Mar 2014", subtitle: "Midterm project due"},
-      {title: "Spatial Typography", date: "31 Mar 2014"},
-      {title: "Transmedia Typography", date: "07 Apr 2014"},
-      {title: "Exploring Concept", date: "14 Apr 2014"},
-      {title: "Creative Workshop", date: "21 Apr 2014"},
-      {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2014"}
+      {title: "Digital Lettering", date: "17 Feb 2015"},
+      {title: "Intro to Typography", date: "24 Feb 2015"},
+      {title: "Editorial Design", date: "03 Mar 2015"},
+      {title: "Typography for Web & Mobile", date: "10 Mar 2015"},
+      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
+      {title: "Spatial Typography", date: "31 Mar 2015"},
+      {title: "Transmedia Typography", date: "07 Apr 2015"},
+      {title: "Exploring Concept", date: "14 Apr 2015"},
+      {title: "Creative Workshop", date: "21 Apr 2015"},
+      {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2015"}
 
     ];
     released = $scope.released;
