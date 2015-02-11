@@ -83,11 +83,11 @@
   app.controller("mainController", function($scope) {
 
     $scope.released = [
-      {title: "Letterforms", date: "03 Feb 2014"}
+      {title: "Letterforms", date: "03 Feb 2014"},
+      {title: "Handlettering", date: "10 Feb 2014"}
     ]
 
     $scope.lessons = [
-      {title: "Handlettering", date: "10 Feb 2014"},
       {title: "Digital Lettering", date: "17 Feb 2014"},
       {title: "Intro to Typography", date: "24 Feb 2014"},
       {title: "Editorial Design", date: "03 Mar 2014"},
