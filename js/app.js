@@ -92,7 +92,7 @@
     $scope.lessons = [
       {title: "Editorial Design", date: "03 Mar 2015"},
       {title: "Typography for Web & Mobile", date: "10 Mar 2015"},
-      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
+      {title: "Identity Design", date: "17 Mar 2015"},
       {title: "Spatial Typography", date: "31 Mar 2015"},
       {title: "Transmedia Typography", date: "07 Apr 2015"},
       {title: "Exploring Concept", date: "14 Apr 2015"},
