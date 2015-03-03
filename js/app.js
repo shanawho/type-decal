@@ -86,7 +86,7 @@
       {title: "Letterforms", date: "03 Feb 2015"},
       {title: "Handlettering", date: "10 Feb 2015"},
       {title: "Digital Lettering", date: "17 Feb 2015"},
-      {title: "Intro to Typography", date: "24 Feb 2015"""},
+      {title: "Intro to Typography", date: "24 Feb 2015"},
       {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"}
     ]
 
