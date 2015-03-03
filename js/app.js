@@ -26,23 +26,23 @@
     }).when("/lessons/2", {
       templateUrl: "pages/lesson2.html",
       controller: "lesson2Controller",
-      title: "Lesson 2: Handlettering”
+      title: "Lesson 2: Handlettering"
     }).when("/lessons/3", {
       templateUrl: "pages/lesson3.html",
       controller: "lesson3Controller",
-      title: "Lesson 3: Digital Lettering”
+      title: "Lesson 3: Digital Lettering"
     }).when("/lessons/4", {
       templateUrl: "pages/lesson4.html",
       controller: "lesson4Controller",
-      title: "Lesson 4: Intro to Typography”
+      title: "Lesson 4: Intro to Typography"
     }).when("/lessons/5", {
       templateUrl: "pages/lesson5.html",
       controller: "lesson5Controller",
-      title: "Lesson 5: Typographic Hierarchy & Systems”
+      title: "Lesson 5: Typographic Hierarchy & Systems"
     }).when("/lessons/6", {
       templateUrl: "pages/lesson6.html",
       controller: "lesson6Controller",
-      title: "Lesson 6: Editorial Design”
+      title: "Lesson 6: Editorial Design"
     }).when("/lessons/7", {
       templateUrl: "pages/lesson7.html",
       controller: "lesson7Controller",
@@ -62,7 +62,7 @@
     }).when("/lessons/11", {
       templateUrl: "pages/lesson11.html",
       controller: "lesson11Controller",
-      title: "Lesson 11: Exploring Concept”
+      title: "Lesson 11: Exploring Concept"
     }).when("/lessons/11", {
       templateUrl: "pages/lesson1.html",
       controller: "lesson1Controller",
@@ -86,14 +86,14 @@
       {title: "Letterforms", date: "03 Feb 2015"},
       {title: "Handlettering", date: "10 Feb 2015"},
       {title: "Digital Lettering", date: "17 Feb 2015"},
-      {title: "Intro to Typography", date: "24 Feb 2015”},
-      {title: “Typographic Hierarchy & Systems“, date: "03 Mar 2015"}
+      {title: "Intro to Typography", date: "24 Feb 2015"""},
+      {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"}
     ]
 
     $scope.lessons = [
-      {title: “Editorial Design”, date: "10 Mar 2015"},
-      {title: "Identity Design", date: "17 Mar 2015”, subtitle: “Midterm project due”},
-      {title: “Typography for Web & Mobile“, date: "21 Apr 2015"},
+      {title: "Editorial Design", date: "10 Mar 2015"},
+      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
+      {title: "Typography for Web & Mobile", date: "21 Apr 2015"},
       {title: "Spatial Typography", date: "31 Mar 2015"},
       {title: "Transmedia Typography", date: "07 Apr 2015"},
       {title: "Exploring Concept", date: "14 Apr 2015"},
