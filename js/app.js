@@ -87,12 +87,12 @@
       {title: "Handlettering", date: "10 Feb 2015"},
       {title: "Digital Lettering", date: "17 Feb 2015"},
       {title: "Intro to Typography", date: "24 Feb 2015"},
-      {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"}
+      {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"},
+      {title: "Editorial Design", date: "10 Mar 2015"},
+      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"}
     ]
 
     $scope.lessons = [
-      {title: "Editorial Design", date: "10 Mar 2015"},
-      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
       {title: "Typography for Web & Mobile", date: "21 Apr 2015"},
       {title: "Spatial Typography", date: "31 Mar 2015"},
       {title: "Transmedia Typography", date: "07 Apr 2015"},
