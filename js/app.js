@@ -93,10 +93,10 @@
     ]
 
     $scope.lessons = [
-      {title: "Typography for Web & Mobile", date: "21 Apr 2015"},
-      {title: "Spatial Typography", date: "31 Mar 2015"},
-      {title: "Transmedia Typography", date: "07 Apr 2015"},
-      {title: "Exploring Concept", date: "14 Apr 2015"},
+      {title: "Typography for Web & Mobile", date: "31 Mar 2015"},
+      {title: "Spatial Typography", date: "07 Apr 2015"},
+      {title: "Transmedia Typography", date: "14 Apr 2015"},
+      {title: "Exploring Concept", date: "21 Apr 2015"},
       {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2015"}
     ];
     released = $scope.released;
