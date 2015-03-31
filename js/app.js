@@ -89,14 +89,14 @@
       {title: "Intro to Typography", date: "24 Feb 2015"},
       {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"},
       {title: "Editorial Design", date: "10 Mar 2015"},
-      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"}
+      {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
+      {title: "Typography for Web & Mobile", date: "31 Mar 2015"}
     ]
 
     $scope.lessons = [
-      {title: "Typography for Web & Mobile", date: "31 Mar 2015"},
       {title: "Spatial Typography", date: "07 Apr 2015"},
-      {title: "Transmedia Typography", date: "14 Apr 2015"},
-      {title: "Exploring Concept", date: "21 Apr 2015"},
+      {title: "Class cancelled for AIGA event", date: "14 Apr 2015"},
+      {title: "Transmedia Typography", date: "21 Apr 2015", subtitle: "Books officially due"},
       {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2015"}
     ];
     released = $scope.released;
