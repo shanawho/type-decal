@@ -90,11 +90,11 @@
       {title: "Typographic Hierarchy & Systems", date: "03 Mar 2015"},
       {title: "Editorial Design", date: "10 Mar 2015"},
       {title: "Identity Design", date: "17 Mar 2015", subtitle: "Midterm project due"},
-      {title: "Typography for Web & Mobile", date: "31 Mar 2015"}
+      {title: "Typography for Web & Mobile", date: "31 Mar 2015"},
+      {title: "Spatial Typography", date: "07 Apr 2015"}
     ]
 
     $scope.lessons = [
-      {title: "Spatial Typography", date: "07 Apr 2015"},
       {title: "Class cancelled for AIGA event", date: "14 Apr 2015", subtitle: "Books officially due"},
       {title: "Transmedia Typography", date: "21 Apr 2015"},
       {title: "Final Critique", subtitle: "Final project due",  date: "28 Apr 2015"}
